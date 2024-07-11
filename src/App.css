@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url('./assets/GammaScientific-107707-Applications-Electromagnetic-Waves-Blogbanner1.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed;
+ 
+
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+h1{
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 50px ;
+
+}
+
+h1 span{
+  color: #FFCBCB;
+  font-weight: 700;
+
+}
+
+textarea{
+  width: 800px;
+  height: 400px;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 15PX;
+  background: rgba(0,0,0,0.5);
+}
+
+
+
+.row{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20PX;
+}
+
+
+
